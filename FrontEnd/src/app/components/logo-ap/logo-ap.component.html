@@ -1,0 +1,19 @@
+<div class="row g-0">
+    <div class="container">
+        <div class="logo">
+            <img src="../../../assets/APLogo.png" class="img-fluid" id="logoAP">
+        </div>
+        <div class="redes">
+            <a href="https://www.facebook.com/Garildo/"><img src="../../../assets/facebook.png" class="img-fluid" id="facebook"></a>
+            <!--<a href=""> <img src="../../../assets/linkedin.png"  id="linkedin"></a>-->
+            <a href="https://twitter.com/Garildo1983"><img src="../../../assets/twitter.png" class="img-fluid" id="twitter"></a>
+            <a href="https://www.instagram.com/enzogerino/"><img src="../../../assets/instagram.png" class="img-fluid"  id="instagram"></a>
+            <a href="https://github.com/Garildo"><img src="../../../assets/github.png" class="img-fluid" id="gtihub"></a>
+            
+            <button type="button" class="btn btn-outline-light" (click)="login()"*ngIf="!isLogged">Press Start</button>
+            <button type="button" class="btn btn-outline-light" (click)="onLogOut()"*ngIf="isLogged">Game Over</button>
+        </div>
+    </div>
+</div>
+
+

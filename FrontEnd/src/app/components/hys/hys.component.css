@@ -1,0 +1,16 @@
+
+div {
+    color: white;
+    background-color: rgba(1, 4, 7, 0.473);
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: auto;
+    
+    
+}
+
+.container-fluid {
+    background-image: url("../../../assets/pac-man.jpg");
+    padding: 20px;
+    align-items: center;
+}

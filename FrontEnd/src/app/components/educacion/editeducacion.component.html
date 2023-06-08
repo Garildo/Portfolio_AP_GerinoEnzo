@@ -1,0 +1,42 @@
+
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="text-white" style="background-color: rgba(10, 52, 103, 0.9); border-radius: 1rem;">
+            <div class="card-body p-5 text-center">
+  
+              <div class="mb-md-5 mt-md-4 pb-5">
+  
+                <h2 class="fw-bold mb-2 text-uppercase">Editar Educación</h2>
+                <p class="text-white-50 mb-5">Ingrese la Institución, Universidad o Terciario y una leve descripción de los cursos o carreras realizadas.</p>
+                
+                <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                    <div class="form-gru">
+                        <label for="nombreEd">Institución - Colegio - Universidad</label>
+                        <input type="text" class="form-control" id="nombreEd" name="nombreEd" [(ngModel)]="editedu.nombreEd" required >
+                    </div>
+                    <br>
+                    <div class="form-gru">
+                        <label for="descripcionEd">Descripción Carrera o Curso realizado</label>
+                        <input type="text" class="form-control" id="descripcionEd" name="descripcionEd" [(ngModel)]="editedu.descripcionEd" required>
+                    </div>
+                    <br>
+                    <button class="btn btn-primary">
+                        Editar
+                    </button>
+                </form>
+
+                
+  
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+

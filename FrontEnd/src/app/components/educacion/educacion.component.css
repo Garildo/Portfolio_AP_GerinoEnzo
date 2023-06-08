@@ -1,0 +1,20 @@
+.row {
+    padding: 10px;
+}
+div {
+    color: whitesmoke;
+    background-color: #01142e;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-right: auto;
+}
+h1, h3, h2 {
+    color: white;
+    display: inline;
+}
+
+td {
+    color: aliceblue;
+}
+.btn {
+    border-radius: 3rem;
+}

@@ -1,0 +1,43 @@
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-ExpLaboral">
+    Editar
+  </button>
+
+<div class="modal fade" id="modal-EditExpLaboral" tabindex="-1" role="dialog" aria-labelledby="modal-EditExpLaboralLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-EditExpLaboralLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <div class="container" *ngIf="expLab">
+                    <div class="row">
+                        <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                            <div class="form-gru">
+                                <label for="nombreEL">Nombre Empresa</label>
+                                <input type="text" class="form-control" id="nombreEL" name="nombreEL" [(ngModel)]="expLab.nombreEL" required >
+                            </div>
+                            <div class="form-gru">
+                                <label for="descripcionEL">Descripción Laboral</label>
+                                <input type="text" class="form-control" id="descripcionEL" name="descripcionEL" [(ngModel)]="expLab.descripcionEL" required>
+                            </div>
+                            <button class="btn btn-primary">
+                                Editar
+                            </button>
+                        </form>
+                    </div>
+                </div>  
+              </div>
+            </div>
+            </div>
+              <div class="modal-footer">
+                <!--<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+                <!--<button type="button" class="btn btn-primary">Understood</button>-->
+              </div>
+            </div>
+        </div>
+    </div>

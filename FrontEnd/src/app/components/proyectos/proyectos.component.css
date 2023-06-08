@@ -1,0 +1,26 @@
+.row {
+    background-image: url("../../../assets/pac-man.jpg");
+    padding: 20px;
+    background-color: #01142e;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    
+}
+
+div {
+    margin: auto;
+}
+
+.container {
+    color: gray;
+    display: flex;
+    align-items: center;
+    
+}
+
+.card {
+    
+    box-shadow: 3px 3px 3px rgb(41, 38, 38);
+}
+
+

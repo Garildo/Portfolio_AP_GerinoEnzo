@@ -1,0 +1,67 @@
+.row  {
+    
+       
+    /* fallback for old browsers */
+    background: #6a11cb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgb(42, 2, 85), rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(31, 5, 59), rgba(37, 117, 252, 1));
+
+    height: 150px;
+    
+    
+}
+
+
+#footer {
+	border-top: 5px solid rgba(0,0,0,0.2);
+	text-align: center;
+	position: fixed;
+	top: auto;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+
+app-social{
+    float: right;
+    margin-top: 25px;
+}
+
+#logoAP {
+    width: 150px;
+}
+
+img {
+    
+    margin: 10px;
+    height: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p {
+	color: white;
+    text-align: center;
+}
+
+.btn {
+	color: white;
+	margin: 2px;
+	border-radius: 100%;
+	border-color: white;
+}
+
+a {
+	color: white;
+}
+
+

@@ -1,0 +1,38 @@
+
+<section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="text-white" style="background-color: rgba(10, 52, 103, 0.9); border-radius: 1rem;">
+            <div class="card-body p-5 text-center">
+  
+              <div class="mb-md-5 mt-md-4 pb-5">
+  
+                <h2 class="fw-bold mb-2 text-uppercase">Editar Experiencia Laboral</h2>
+                <p class="text-white-50 mb-5">Ingrese empresa y cargo laboral</p>
+                
+                <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                    <div class="form-gru">
+                        <label for="nombreEL">Empresa</label>
+                        <input type="text" class="form-control" id="nombreEL" name="nombreEL" [(ngModel)]="expLab.nombreEL" required >
+                    </div>
+                    <br>
+                    <div class="form-gru">
+                        <label for="descripcionEL">Descripción Laboral</label>
+                        <input type="text" class="form-control" id="descripcionEL" name="descripcionEL" [(ngModel)]="expLab.descripcionEL" required>
+                    </div>
+                    <br>
+                    <button class="btn btn-primary">
+                        Editar
+                    </button>
+                </form>
+            
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+

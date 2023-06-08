@@ -1,0 +1,14 @@
+.modal-header {
+    color: rgb(240, 240, 246);
+    background-color: #c0183f;
+}
+
+.modal-body {
+    color: whitesmoke;
+    background-color: #01142e;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.modal-footer {
+    background-color: #c0183f;
+}
