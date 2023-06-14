@@ -30,6 +30,5 @@ com\PorfolioAplicacion\demo\Security\Entity\Usuario.class
 com\PorfolioAplicacion\demo\Security\Repository\iRolRepository.class
 com\PorfolioAplicacion\demo\Entity\Persona.class
 com\PorfolioAplicacion\demo\Security\Entity\UsuarioPrincipal.class
-com\PorfolioAplicacion\demo\WebConfig.class
 com\PorfolioAplicacion\demo\Security\jwt\JwtTokenFilter.class
 com\PorfolioAplicacion\demo\Service\Seducacion.class
